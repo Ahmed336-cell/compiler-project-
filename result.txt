@@ -1,0 +1,56 @@
+	1: ID, name= read
+	1: ID, name= number
+	1: reserved word: ;
+	2: ID, name= i
+	2: :=
+	2: NUM, val= 1
+	2: reserved word: ;
+	4: ID, name= write
+	4: ERROR: "
+	4: ID, name= Multiplication
+	4: ID, name= table
+	4: ID, name= for
+	4: ERROR: "
+	4: reserved word: ;
+	5: ID, name= write
+	5: ID, name= number
+	5: reserved word: ;
+	7: reserved word: while
+	7: ID, name= i
+	7: reserved word: <=
+	7: NUM, val= 10
+	7: ID, name= do
+	8: ID, name= result
+	8: :=
+	8: ID, name= number
+	8: reserved word: *
+	8: ID, name= i
+	8: reserved word: ;
+	9: ID, name= write
+	9: ID, name= number
+	9: reserved word: ;
+	10: ID, name= write
+	10: ERROR: "
+	10: reserved word: *
+	10: ERROR: "
+	10: reserved word: ;
+	11: ID, name= write
+	11: ID, name= i
+	11: reserved word: ;
+	12: ID, name= write
+	12: ERROR: "
+	12: :=
+	12: ERROR: "
+	12: reserved word: ;
+	13: ID, name= write
+	13: ID, name= result
+	13: reserved word: ;
+	14: ID, name= i
+	14: :=
+	14: ID, name= i
+	14: +
+	14: NUM, val= 1
+	14: reserved word: ;
+	15: ID, name= endwhile
+	15: reserved word: ;
+	15: EOF

@@ -1,0 +1,15 @@
+read number;        
+i = 1;             
+
+write "Multiplication table for "; 
+write number;         
+
+while i <= 10 do      
+    result = number * i;   
+    write number;           
+    write " * ";           
+    write i;               
+    write " = ";           
+    write result;          
+    i = i + 1;             
+endwhile;
