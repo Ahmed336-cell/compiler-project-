@@ -1,0 +1,17 @@
+{ This program generates a multiplication table }
+
+read number;           { Read the number for which multiplication table will be generated }
+i := 1;               { Initialize loop counter }
+
+write "Multiplication table for ";  { Print message }
+write number;          { Print the number }
+
+while i <= 10 do      { Loop from 1 to 10 }
+    result := number * i;   { Calculate multiplication }
+    write number;           { Print multiplicand }
+    write " * ";            { Print separator }
+    write i;                { Print multiplier }
+    write " = ";            { Print separator }
+    write result;           { Print result }
+    i := i + 1;             { Increment loop counter }
+endwhile;
